@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>JS assigenment 1</title>
+</head>
+<body>
+
+    <!-- <div id="demo" class="d-flex justify-content-center align-items-center vh-100 flex-column"></div> -->
+
+    <h1 class="text-center">store</h1>
+
+
+    <label for="ProductName"> product Name : </label>
+    <input type="text" class="form-control mt-1 mb-3" id="ProductName"/>
+
+    <label for="ProductPrice"> product Price : </label>
+    <input type="number" class="form-control mt-1 mb-3" id="ProductPrice"/>
+
+    <label for="ProductCategory"> product Category : </label>
+    <input type="text" class="form-control mt-1 mb-3" id="ProductCategory"/>
+
+    <label for="ProductDesc"> product Description : </label>
+    <textarea class="form-control mt-1 mb-3" id="ProductDesc"></textarea>
+
+    <label for="ProductImg"> product Image : </label>
+    <input type="file" class="form-control mt-1 mb-3" id="ProductImg"/>
+
+    <button class="btn btn-primary" onclick="addProduct()"> add product</button>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
